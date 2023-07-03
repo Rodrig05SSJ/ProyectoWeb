@@ -173,3 +173,79 @@ header{
 .hidden-controls::-webkit-media-controls-panel {
     display: none !important;
 }
+.cita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.cita input[type="text"],
+.cita input[type="email"],
+.cita textarea {
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.cita input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.cita input[type="submit"]:hover {
+    background-color: #6A0DAD;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #6A0DAD;
+}
