@@ -15,9 +15,9 @@
                 <a href="index.html" class="logo">Car <span>Shop</span></a>
 
                 <ul class="navbar">
-                    <li><a href="index.html" class="activo">Inicio</a></li>
-                    <li><a href="autos.html">Autos</a></li>
-                    <li><a href="accesorios.html">Accesorios</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="autos.html" >Autos</a></li>
+                    <li><a href="accesorios.html" class="activo">Accesorios</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="#Citas">Citas</a></li>
                     <li><a href="#Registro">Iniciar Sesion</a></li>
@@ -32,12 +32,25 @@
         </header>
 
         <section>
-            <h1 class="catalogo">Ponte sobre ruedas con nosotros!</h1>
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <video width="1220" height="650" controls autoplay muted loop onplay="this.controls=false" class="hidden-controls">
-                    <source src="imagenes/video.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
-                </video>
+            <div class="catalogo" id="catalogo">
+                <h1>CATALOGO DE ACCESORIOS</h1>
+            </div>
+            <div class="catEstilo">
+                <h2>Aro Porche</h2>
+                <img src="imagenes/Aro.jpg" alt=""/ width="500" height="350"/><br>
+                <p>Aro Porche Fibra de Carbono</p><br>
+                <p>Precio:$1.500</p>
+                <p>-----------------------------------------------------</p>
+                <h2>Luz Led para Vehiculos</h2>
+                <img src="imagenes/Led.jpg" alt=""/><br>
+                <p>Focos Luces Led</p><br>
+                <p>Precio:$100</p><br>
+                <p>-----------------------------------------------------</p>
+                <h2>Cera Meguiars</h2>
+                <img src="imagenes/Cera.jpg" alt="" width="500" height="350"/><br>
+                <p>Cera pulidora de Carro</p><br>
+                <p>Precio:$25</p><br>
+
             </div>
         </section>
 
@@ -47,6 +60,6 @@
                 searchBox.classList.toggle('activo');
             }
         </script>
-        <footer class="footer">AutosMcQueen &COPY; 2023 - Grupo 10</footer>
-    </body>
+        <footer class="footer">AutosMcQueen &COPY; 2023 - Grupo 10</address></footer>
+</body>
 </html>
